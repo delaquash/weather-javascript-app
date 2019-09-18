@@ -1,13 +1,14 @@
 body {
-  background-image: url("background.jpg");
+  background: black;
+  /* url("background.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .container {
-  width: 500px;
-  height: 300px;
+  width: 650px;
+  height: 400px;
   margin: 25vh auto;
   border-radius: 25px;
   box-shadow: 0 20px 40px 0px rgba(0, 0, 0, 0.3)
@@ -15,11 +16,17 @@ body {
 
 .header {
   height: 20%;
-  background-color: #FF9800;
+  background-color:  lightblue;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   text-align: center;
   position: relative;
+}
+p {
+  font-size: 30px;
+  position: relative;
+  bottom: 30px;
+  font-family: cursive;
 }
 
 #temp,
@@ -46,13 +53,15 @@ body {
 
 #city-name {
   font-family: "Courier New";
-  font-size: 30px;
+  font-size: 90px;
   font-weight: bold;
   color: #fff;
+
 }
 
 #icon {
-  width: 50%;
+  width: 80%;
+  height: 70%;
 }
 
 #main {
@@ -65,7 +74,7 @@ body {
   height: 80%;
   width: 50%;
   border-bottom-left-radius: 25px;
-  background-color: #FFC107;
+  background-color: lightblue ;
 }
 
 .temperature {
@@ -74,7 +83,7 @@ body {
   top: 0%;
   height: 40%;
   width: 50%;
-  background-color: #9C27B0;
+  background-color:lightblue;
 }
 
 .humidity {
@@ -84,7 +93,7 @@ body {
   left: 50%;
   top: 40%;
   border-bottom-right-radius: 25px;
-  background-color: #E91E63;
+  background-color:lightblue;
 }
 
 #search-btn {
@@ -94,7 +103,7 @@ body {
 }
 
 #search-txt {
-  color: red;
+  color: black;
   height: 30px;
   border-radius: 10px;
   border-style: none;
@@ -102,6 +111,9 @@ body {
   padding-right: 1px;
   padding-left: 1px;
   text-align: center;
+  width: 300px;
+  height: 50px;
+
 }
 
 .search {

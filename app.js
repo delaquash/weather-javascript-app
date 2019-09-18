@@ -1,4 +1,5 @@
-const appKey = "f24f40b1c24505685fce3b8acd0fcffc";
+// const appKey = "f24f40b1c24505685fce3b8acd0fcffc";
+const appKey = "c9cabcefbfeb231cb9444ffc9f779260";
 
 let searchButton = document.getElementById("search-btn");
 let searchInput = document.getElementById("search-txt");
