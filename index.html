@@ -1,61 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Javascript Weather Application</title>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Javascript Weather Application</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
 
-
-  <link rel="stylesheet" href="style.css" type="text/css">
-
-
-</head>
-
-<body>
-
-
-  <div class="container">
-    <header class="header">
-      <div class="search">
-        <input type="text" placeholder="Type Preferred Location" id="search-txt">
-        <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
-      </div>
-    </header>
-
-    <main id="main">
-
-      <div class="city-icon">
-        <div class="city-icon-holder">
-          <div id="city-name"></div>
-          <img src="" alt="" id="icon">
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Type Preferred Location"
+            id="search-txt"
+          />
+          <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
         </div>
-      </div>
+      </header>
 
-      <div class="temperature">
-           <p>Temperature</p>
-        <div id="temp">
+      <main id="main">
+        <div class="city-icon">
+          <div class="city-icon-holder">
+            <div id="city-name"></div>
+            <img src="" alt="" id="icon" />
+          </div>
         </div>
-      </div>
 
-      <div class="humidity">
-        <p>Humidity</p>
-        <div id="humidity-div">
+        <div class="temperature">
+          <p>Temperature(Celsius)</p>
+          <div id="temp"></div>
         </div>
-      </div>
 
-    </main>
+        <div class="humidity">
+          <p>Humidity(Percentage)</p>
+          <div id="humidity-div"></div>
+        </div>
+      </main>
+    </div>
+    <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
 
-  </div>
-  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
-
-
-
-  <script src="app.js"> </script>
-
-
-
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>
